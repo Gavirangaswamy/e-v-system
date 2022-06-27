@@ -1,0 +1,179 @@
+body {
+	margin: 0;
+	background-color: #fff3e4;
+	position: relative;
+	background-image: url(images/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+header {
+	background-color: #2f5d62;
+	width: 100%;
+	position: fixed;
+	top: 0;
+}
+
+h1 {
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "Sacramento", cursive;
+	padding-left: 10px;
+}
+
+.signup a, .login a {
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding-left: 10px;
+	position: absolute;
+	right: 25px;
+	top: 25px;
+	text-decoration: none;
+}
+
+.login a:hover, .signup a:hover {
+	color: #000;
+	transition: 0.8s;
+}
+
+form {
+	margin: 5% 25% 5% 35%;
+	background-color: #a7c4bc;
+	width: 25%;
+	padding: 10px 25px 50px;
+	margin-top: 100px;
+	margin-bottom: 5%;
+	border-radius: 3%;
+}
+
+.form-heading {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-align: center;
+	color: #000;
+	font-size: 25px;
+	padding-bottom: 20px;
+}
+
+.btn {
+	width: 80%;
+	padding: 10px 30px;
+	cursor: pointer;
+	margin: 5% 10% 0% 10%;
+	background: #2f5d62;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+	color: #fff;
+	text-align: center;
+}
+
+.btn:hover {
+	background-color: #fff;
+	color: #000;
+	border: #000 1px solid;
+	transition: 0.5s;
+}
+
+.reg-btn {
+	width: 35%;
+	padding: 10px 30px;
+	cursor: pointer;
+	margin: 5% 5%;
+	background: #2f5d62;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+	color: #fff;
+	text-align: center;
+	display: inline;
+}
+
+.reg-btn:hover {
+	background-color: #fff;
+	color: #000;
+	border: #000 1px solid;
+	transition: 0.5s;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #2f5d62;
+	text-align: center;
+	height: 10%;
+}
+
+small {
+	color: #fff;
+	position: relative;
+	top: 25%;
+}
+
+input, select {
+	width: 100%;
+	padding: 15px 0 0 0;
+	margin: 5px 0 15px;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+}
+
+.checkbox {
+	width: 10%;
+}
+
+span {
+	color: #777;
+	font-size: 15px;
+	bottom: 34%;
+	position: absolute;
+}
+
+.signup-span {
+	color: #777;
+	font-size: 15px;
+	bottom: 12%;
+	position: absolute;
+}
+
+.fpassword {
+	color: #777;
+}
+
+.fpassword:hover {
+	color: red;
+	transition: 0.8s;
+}
+
+.fas {
+	font-size: 30px;
+}
+
+#message, #login {
+	color: red;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 12px;
+}
+
+#pmsg {
+	width: 100%;
+	display: none;
+	margin-top: 0;
+}
+
+#strength {
+	position: inherit;
+}
+
+.fa-circle-check {
+	width: 100%;
+	color: green;
+}

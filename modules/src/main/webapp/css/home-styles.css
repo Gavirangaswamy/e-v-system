@@ -1,0 +1,67 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Montserrat", sans-serif;
+}
+p {
+  color: #8f8f8f;
+}
+#title {
+  background-color: #2f5d62;
+  text-align: left;
+}
+.big-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #fff;
+}
+.container-fluid {
+  padding: 3% 15% 5% 15%;
+}
+.fab {
+  padding-right: 10px;
+}
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+.navbar-brand {
+  font-family: "Sacramento", cursive;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+}
+.download-button {
+  margin: 10% 3% 5% 0;
+}
+#footer {
+  padding: 100px 100px 20px;
+  background-color: #fff;
+  color: #8f8f8f;
+}
+.social-icons {
+  color: #000;
+  padding: 10px;
+}
+@media (max-width: 1028px) {
+  .title-img {
+    transform: rotate(0);
+    position: static;
+  }
+}
